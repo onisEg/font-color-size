@@ -58,7 +58,7 @@ sizes.addEventListener("change", (e) => {
 })
 
 
-
+// when change option make loop and choose color
 fonts.addEventListener("change", (e) => {
     for (i = 0; i < selects.length; i++) {
         selects[i].style.fontFamily = e.target.value;
