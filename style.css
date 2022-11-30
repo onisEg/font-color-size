@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Open+Sans&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+select{
+    padding: 0.5rem 2rem;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px #ccc solid;
+
+}
+select:focus{
+    border: 1px #ccc solid;
+}
+option{
+    padding: 5px ;
+}
+
+
+    
